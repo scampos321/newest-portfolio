@@ -12,10 +12,6 @@ There are links to my github, linkedIn, and contact information.
 5. [Demo](#Screenshot of Portfolio)
 6. [Questions](#Questions)
 
-<img width="179" alt="Screen Shot 2021-09-23 at 6 11 55 PM" src="https://user-images.githubusercontent.com/85428896/134591651-f648b18b-b610-4d5d-82ed-9c62f120f466.png">
-
-
-
 # Technologies
 1. HTML
 2. CSS

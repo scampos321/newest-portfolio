@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sebastian's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Develop/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <ul class="contact_links">
+
+        <a href="mailto:seb.campos03@gmail.com">
+            <li id="email">seb.campos03@gmail.com</li>
+        </a>
+
+        <a href="tel:4707684681">
+            <li id="phone">470-768-4681</li>
+        </a>
+
+    </ul>
+
+    </nav>
+
+    <header>
+        <nav class="nav_bar">
+
+            <div class="nav-wrapper">
+
+
+
+
+                <h4 class="header">SEBASTIAN CAMPOS</h4>
+                <ul id="navigation" class="right">
+
+                    <li>
+
+                        <a href="#about-me" id="about"> About </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#work" id="projects">Projects</a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="https://github.com/scampos321">
+                            <img src="./Assets/pictures/github.png" id="github-icon">
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="https://www.linkedin.com/in/sebastian-campos-1b2a41219/">
+                            <img src="./Assets/pictures/linkedin-icon.png" id="linkedin-icon">
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#contact" class="dropdown-trigger" id="contact-me">Contact</a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#resume" id="my-resume">Resume</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="backgroundimage">
+
+            <h2 id="jobtitle">Full Stack Developer</h2>
+            <img src="./Assets/pictures/profilepic3.png" id="profile-photo">
+            <!-- <img src="./Assets/pictures/computer-data-analytics-blue-background-website-header.jpg" alt="computer science background"/> -->
+
+        </div>
+
+    </header>
+
+    <section class="about_me">
+
+        <div id="about-me" class="about-me">
+            <h2>
+
+                Hey, my name is Sebastian Campos
+
+            </h2>
+
+            <p>
+                I am a web developer and I am currently learning at the Georgia Tech Coding Boot Camp.<br> I decided to start learning to further expand my knowledge on web developement and improve my career level. The goal is to eventually get into the
+                work field of a web<br> developer and land the ideal job.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="my-work">
+
+        <div id="work" class="work">
+
+            <h2>Projects</h2>
+            <div class="project-images">
+                <div class="first-project">
+                    <img alt="Lost Chef Project" src="./Assets/pictures/lost-chef.png" id="day-planner-img">
+                    <a href="https://lostchef.herokuapp.com/">
+
+
+                        <img src="./Assets/pictures/github.png" id="github-projects-1">
+
+                    </a>
+                    <p id="first-text">Lost Chef</p>
+                </div>
+
+                <div class="brain-breaks">
+                    <img alt="brain breaks screenshot" src="./Assets/pictures/brain-breaks.png" id="brain-breaks-img">
+                    <a href="https://genius2k21.github.io/07-Project-Brain_Breaks/">
+
+                        <img src="./Assets/pictures/github.png" id="github-projects">
+
+                    </a>
+                    <p id="brain-text">Brain Breaks Project</p>
+                </div>
+
+                <div class="password-gen">
+                    <img alt="note taker image" src="./Assets/pictures/note-taker.png" id="passwordgen-img">
+                    <a href="https://github.com/scampos321/note-taker">
+
+                        <img src="./Assets/pictures/github.png" id="github-projects">
+
+                    </a>
+                    <p id="pass-text">Note Taker</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div id="contact" class="contact">
+
+            <h2>Contact</h2>
+            <div class="container">
+                <a href="mailto:seb.campos03@gmail.com" id="email-btn" class="waves-effect waves-light btn-large"><i class="material-icons left">email</i>Email</a>
+
+                <a href="tel:4707684681" id="phone-btn" class="waves-effect waves-light btn-large"><i class="material-icons left">call</i>Phone</a>
+            </div>
+
+
+    </section>
+
+    <section>
+
+        <div id="resume" class="resume">
+            <h2 id=resume-title>Resume</h2>
+            <img src="./Assets/pictures/resume.png" id="resume-img">
+            <a href="https://docs.google.com/document/d/1uzQiSyIjDc-z1PzZrZfoduGxXwPOJK2haGB9ZoaDHv8/edit?usp=sharing">
+
+                <img src="./Assets/pictures/googledocs.png" id="googledoc">
+
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="form-box">
+            <form action="https://formspree.io/f/xvodvkrw" method="POST">
+                <label id="email-label">
+              Enter your email:
+              <input type="email" name="_replyto" id="input-email">
+            </label>
+                <label id="message-label">
+              Send me a message:
+              <textarea name="message" id="message-box"></textarea>
+            </label>
+                <!-- your other form fields go here -->
+                <button type="submit" class="btn waves-effect waves-light" id="send-btn">
+                    Send<i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+        <h3 class="footer-name">Created by Sebastian Campos</h3>
+
+    </footer>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./Develop/css/script.js"></script>
+</body>
+
+</html>
